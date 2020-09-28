@@ -1,0 +1,17 @@
+
+public class Fraction {
+	
+	float numerateur;
+	float denominateur;
+	
+	Fraction(float a, float b){
+		numerateur = a;
+		denominateur = b;
+	}
+	
+	
+	public String toString(Fraction a) {
+		
+		return a.numerateur + "/" + a.denominateur;
+	}
+}
